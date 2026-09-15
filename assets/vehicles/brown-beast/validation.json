@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "sourceTriangles": 7516,
+  "exportedTriangles": 7516,
+  "exportedMeshes": 15,
+  "exportedNodes": 43,
+  "verticesCheckedWithPositionsUVsAndNormals": 7926,
+  "maximumExportedPositionErrorMeters": 1.7573009518610354e-07,
+  "maximumUVError": 0,
+  "animationName": "Rig_Preview",
+  "animationChannels": 18,
+  "animationDurationSeconds": 3.0,
+  "scope": "Asset structure and rest-pose preservation; not physics or full travel collision validation."
+}

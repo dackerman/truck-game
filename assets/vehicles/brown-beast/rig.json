@@ -1,0 +1,559 @@
+{
+  "schemaVersion": 1,
+  "assetId": "brown-beast",
+  "sourceFile": "source.glb",
+  "sourceSha256": "598238205171f15093fb626a6f2dbf699d1089d7d8757d37eef7b4da03fe9c0e",
+  "riggedFile": "brown-beast-rigged.glb",
+  "coordinateSystem": {
+    "up": "+Y",
+    "forward": "-Z",
+    "right": "+X",
+    "origin": "ground plane, midway between axles",
+    "units": "meters; source scale retained, real truck dimensions unverified"
+  },
+  "sourceDimensions": {
+    "width": 2.384615421295166,
+    "height": 2.4384000301361084,
+    "length": 4.589929580688477
+  },
+  "sourceTriangles": 7516,
+  "sourceVertices": 7926,
+  "sourceLooseComponents": 187,
+  "sourceMaterials": 1,
+  "sourceTextures": [
+    {
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "width": 2048,
+      "height": 2048
+    }
+  ],
+  "sourceAnimations": 0,
+  "sourceSkins": 0,
+  "previewClip": "Rig_Preview",
+  "extractedMeshes": [
+    {
+      "name": "Wheel_RL_Tire",
+      "triangles": 708,
+      "vertices": 710,
+      "source_components": [
+        1,
+        72,
+        76,
+        77,
+        86,
+        89,
+        94,
+        105,
+        109,
+        114,
+        123,
+        125,
+        128,
+        137,
+        145,
+        154,
+        155,
+        174,
+        176,
+        177,
+        178,
+        180,
+        184,
+        185,
+        186
+      ]
+    },
+    {
+      "name": "Wheel_RR_Tire",
+      "triangles": 730,
+      "vertices": 703,
+      "source_components": [
+        2,
+        56,
+        75,
+        78,
+        90,
+        91,
+        104,
+        110,
+        111,
+        117,
+        127,
+        135,
+        146,
+        147,
+        151,
+        152,
+        157,
+        162,
+        163,
+        165,
+        166,
+        171,
+        173,
+        182
+      ]
+    },
+    {
+      "name": "Wheel_FR_Tire",
+      "triangles": 750,
+      "vertices": 701,
+      "source_components": [
+        3,
+        68,
+        82,
+        84,
+        85,
+        92,
+        95,
+        98,
+        108,
+        115,
+        124,
+        126,
+        133,
+        134,
+        136,
+        139,
+        140,
+        142,
+        143,
+        149,
+        150,
+        164,
+        172,
+        183
+      ]
+    },
+    {
+      "name": "Wheel_FL_Tire",
+      "triangles": 736,
+      "vertices": 717,
+      "source_components": [
+        4,
+        65,
+        74,
+        80,
+        83,
+        87,
+        99,
+        101,
+        103,
+        112,
+        118,
+        120,
+        130,
+        131,
+        132,
+        138,
+        141,
+        148,
+        153,
+        158,
+        159,
+        160,
+        161,
+        179,
+        181
+      ]
+    },
+    {
+      "name": "Wheel_FL_Hub",
+      "triangles": 84,
+      "vertices": 83,
+      "source_components": [
+        12
+      ]
+    },
+    {
+      "name": "Wheel_FR_Hub",
+      "triangles": 86,
+      "vertices": 81,
+      "source_components": [
+        13
+      ]
+    },
+    {
+      "name": "Wheel_RR_Hub",
+      "triangles": 88,
+      "vertices": 73,
+      "source_components": [
+        17
+      ]
+    },
+    {
+      "name": "Wheel_RL_Hub",
+      "triangles": 86,
+      "vertices": 65,
+      "source_components": [
+        21
+      ]
+    },
+    {
+      "name": "Axle_Front_Visual",
+      "triangles": 356,
+      "vertices": 433,
+      "source_components": [
+        10,
+        11,
+        23,
+        25,
+        29,
+        42,
+        54,
+        60,
+        71
+      ]
+    },
+    {
+      "name": "Axle_Rear_Visual",
+      "triangles": 270,
+      "vertices": 272,
+      "source_components": [
+        16,
+        26,
+        46,
+        47,
+        48,
+        51,
+        55
+      ]
+    },
+    {
+      "name": "Suspension_FL_Visual",
+      "triangles": 36,
+      "vertices": 44,
+      "source_components": [
+        30
+      ]
+    },
+    {
+      "name": "Suspension_FR_Visual",
+      "triangles": 38,
+      "vertices": 51,
+      "source_components": [
+        27
+      ]
+    },
+    {
+      "name": "Suspension_RL_Visual",
+      "triangles": 32,
+      "vertices": 40,
+      "source_components": [
+        35
+      ]
+    },
+    {
+      "name": "Suspension_RR_Visual",
+      "triangles": 30,
+      "vertices": 43,
+      "source_components": [
+        32
+      ]
+    },
+    {
+      "name": "Chassis_Visual",
+      "triangles": 3486,
+      "vertices": 3910,
+      "source_components": [
+        0,
+        5,
+        6,
+        7,
+        8,
+        9,
+        14,
+        15,
+        18,
+        19,
+        20,
+        22,
+        24,
+        28,
+        31,
+        33,
+        34,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        43,
+        44,
+        45,
+        49,
+        50,
+        52,
+        53,
+        57,
+        58,
+        59,
+        61,
+        62,
+        63,
+        64,
+        66,
+        67,
+        69,
+        70,
+        73,
+        79,
+        81,
+        88,
+        93,
+        96,
+        97,
+        100,
+        102,
+        106,
+        107,
+        113,
+        116,
+        119,
+        121,
+        122,
+        129,
+        144,
+        156,
+        167,
+        168,
+        169,
+        170,
+        175
+      ]
+    }
+  ],
+  "restPoseMaximumVertexErrorMeters": 1.7881393432617188e-07,
+  "sourceNormalizationBlender": {
+    "rotateZRadians": 3.141592653589793,
+    "translate": [
+      0,
+      -0.10757589340209961,
+      1.2192000150680542
+    ]
+  },
+  "axles": [
+    {
+      "node": "Axle_Front",
+      "restPosition": [
+        -0.0,
+        0.5356425046920776,
+        -1.376083254814148
+      ],
+      "topology": "solid_visual_axle",
+      "wheels": [
+        "FL",
+        "FR"
+      ]
+    },
+    {
+      "node": "Axle_Rear",
+      "restPosition": [
+        -0.0,
+        0.5348013639450073,
+        1.376083254814148
+      ],
+      "topology": "solid_visual_axle",
+      "wheels": [
+        "RL",
+        "RR"
+      ]
+    }
+  ],
+  "wheels": [
+    {
+      "id": "FL",
+      "mountNode": "Wheel_FL_Mount",
+      "steerNode": "Wheel_FL_Steer",
+      "spinNode": "Wheel_FL_Spin",
+      "tireNode": "Wheel_FL_Tire",
+      "hubNode": "Wheel_FL_Hub",
+      "restCenter": [
+        -0.9368138313293457,
+        0.533400297164917,
+        -1.3738422393798828
+      ],
+      "visualRadiusMax": 0.5898908376693726,
+      "visualRadiusMedian": 0.49548184871673584,
+      "width": 0.5109876990318298,
+      "steerAxis": [
+        0,
+        1,
+        0
+      ],
+      "forwardSpinAxis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "FR",
+      "mountNode": "Wheel_FR_Mount",
+      "steerNode": "Wheel_FR_Steer",
+      "spinNode": "Wheel_FR_Spin",
+      "tireNode": "Wheel_FR_Tire",
+      "hubNode": "Wheel_FR_Hub",
+      "restCenter": [
+        0.9345716238021851,
+        0.5378846526145935,
+        -1.378324270248413
+      ],
+      "visualRadiusMax": 0.5812916159629822,
+      "visualRadiusMedian": 0.4961547255516052,
+      "width": 0.5154721140861511,
+      "steerAxis": [
+        0,
+        1,
+        0
+      ],
+      "forwardSpinAxis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "RL",
+      "mountNode": "Wheel_RL_Mount",
+      "steerNode": "Wheel_RL_Steer",
+      "spinNode": "Wheel_RL_Spin",
+      "tireNode": "Wheel_RL_Tire",
+      "hubNode": "Wheel_RL_Hub",
+      "restCenter": [
+        -0.9345716238021851,
+        0.533400297164917,
+        1.3805652856826782
+      ],
+      "visualRadiusMax": 0.565281331539154,
+      "visualRadiusMedian": 0.4831329584121704,
+      "width": 0.5154721140861511,
+      "steerAxis": [
+        0,
+        1,
+        0
+      ],
+      "forwardSpinAxis": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "RR",
+      "mountNode": "Wheel_RR_Mount",
+      "steerNode": "Wheel_RR_Steer",
+      "spinNode": "Wheel_RR_Spin",
+      "tireNode": "Wheel_RR_Tire",
+      "hubNode": "Wheel_RR_Hub",
+      "restCenter": [
+        0.9368138313293457,
+        0.5362024307250977,
+        1.3716012239456177
+      ],
+      "visualRadiusMax": 0.5599716901779175,
+      "visualRadiusMedian": 0.48452675342559814,
+      "width": 0.5109876990318298,
+      "steerAxis": [
+        0,
+        1,
+        0
+      ],
+      "forwardSpinAxis": [
+        -1,
+        0,
+        0
+      ]
+    }
+  ],
+  "suspensionLinks": [
+    {
+      "id": "FL",
+      "node": "Suspension_FL",
+      "upperMountNode": "Suspension_FL_UpperMount",
+      "lowerMountNode": "Suspension_FL_LowerMount",
+      "upperRestPosition": [
+        -0.508145272731781,
+        0.8873333930969238,
+        -0.6141342520713806
+      ],
+      "lowerRestPosition": [
+        -0.5928158760070801,
+        0.582946240901947,
+        -1.3099055290222168
+      ],
+      "restLength": 0.7641454765323572,
+      "localStretchAxis": "+Y after glTF export of local Blender +Z"
+    },
+    {
+      "id": "FR",
+      "node": "Suspension_FR",
+      "upperMountNode": "Suspension_FR_UpperMount",
+      "lowerMountNode": "Suspension_FR_LowerMount",
+      "upperRestPosition": [
+        0.5065595507621765,
+        0.8812562823295593,
+        -0.6094715595245361
+      ],
+      "lowerRestPosition": [
+        0.6083323359489441,
+        0.5749692916870117,
+        -1.3138502836227417
+      ],
+      "restLength": 0.7748024334645162,
+      "localStretchAxis": "+Y after glTF export of local Blender +Z"
+    },
+    {
+      "id": "RL",
+      "node": "Suspension_RL",
+      "upperMountNode": "Suspension_RL_UpperMount",
+      "lowerMountNode": "Suspension_RL_LowerMount",
+      "upperRestPosition": [
+        -0.5069484710693359,
+        0.8918365836143494,
+        0.6399125456809998
+      ],
+      "lowerRestPosition": [
+        -0.6015593409538269,
+        0.6001648306846619,
+        1.3027957677841187
+      ],
+      "restLength": 0.7303682655945848,
+      "localStretchAxis": "+Y after glTF export of local Blender +Z"
+    },
+    {
+      "id": "RR",
+      "node": "Suspension_RR",
+      "upperMountNode": "Suspension_RR_UpperMount",
+      "lowerMountNode": "Suspension_RR_LowerMount",
+      "upperRestPosition": [
+        0.5142979025840759,
+        0.9024354219436646,
+        0.6510341167449951
+      ],
+      "lowerRestPosition": [
+        0.6194725632667542,
+        0.6009975075721741,
+        1.3013554811477661
+      ],
+      "restLength": 0.724461452983806,
+      "localStretchAxis": "+Y after glTF export of local Blender +Z"
+    }
+  ],
+  "limitations": [
+    "Kinematic rig preview, not a physics simulation or calibrated vehicle.",
+    "Axle and suspension assignments inferred from source geometry; not verified mechanical construction.",
+    "Suspension links use endpoint-driven rotation and uniform axial scale for this preview. Production needs proper telescoping or deforming linkage visuals.",
+    "Irregular AI-generated tires and hubs retain original shape and may wobble; production tire geometry may need replacement.",
+    "Suspension travel, steering clearance, collision proxies, masses, spring rates, tire parameters and drivetrain data still need validation/implementation.",
+    "Asset usage rights come from the original download; no license was embedded in the GLB metadata."
+  ]
+}
